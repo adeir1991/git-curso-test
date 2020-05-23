@@ -18,6 +18,12 @@ git branch
 git branch adeir
 -(cambio de rama o branch)
 git checkout adeir
+-(Subir mi proyecto local a gitHUB - Nube -se pega la url del repositorio creado en github.com)
+git remote add origin https://github.com/adeir1991/git-curso-test.git
+git push -u origin master
+
+
+
 
 
 
