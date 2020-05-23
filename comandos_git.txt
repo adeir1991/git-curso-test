@@ -1,0 +1,16 @@
+-(Inicializar la carpeta como proyectoGIT)
+git init 
+-(Configuracion de GIT)
+git config --global user.name "adeir"
+git config --global user.email "ing.adeir@gmail.com"
+-(agregar al stage area)
+git add .
+git add file1.txt
+-(descartar cambios de algun archivo sin hacer commit o add)
+git checkout  -- uno.txt
+(listar historico de commits)
+git log
+
+
+
+
