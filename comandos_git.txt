@@ -12,6 +12,14 @@ git checkout  -- uno.txt
 git log
 -(diferenciar cambios)
 git diff
+-(listar branchs)
+git branch
+-(creacion de branch)
+git branch adeir
+-(cambio de rama o branch)
+git checkout adeir
+
+
 
 
 
