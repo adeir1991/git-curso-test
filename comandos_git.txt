@@ -28,7 +28,13 @@ git rm --cached dos.txt
 git reset HEAD archivos4.txt
 -(Subir a la nube)
 git push origin master
-
+-(Recuperar archivos eliminados)
+git log --oneline
+ó sino filtar solo los eliminados con D:
+git log --oneline --name-status --diff-filter=D
+Luego:
+git checkout ID_COMMIT^ NOMBRE_FILE_O_CARPETA
+git checkout 55e285d^ dos.txt
 
 
 
