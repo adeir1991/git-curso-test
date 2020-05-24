@@ -18,7 +18,7 @@ git branch
 git branch adeir
 -(cambio de rama o branch)
 git checkout adeir
--(elimnacion de rama)
+-(eliminacion de rama)
 gir branch -d NOMRBE_RAMA1 NOMRBE_RAMA2 NOMRBE_RAMA3
 -(Subir mi proyecto local a gitHUB-Nube - se pega la url del repositorio creado en github.com)
 git remote add origin https://github.com/adeir1991/git-curso-test.git
@@ -28,9 +28,6 @@ git rm --cached dos.txt
 git reset HEAD archivos4.txt
 -(Subir a la nube)
 git push origin master
-
-
-
 
 
 
